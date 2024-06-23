@@ -1,0 +1,6 @@
+@AiInsole_HostAddress = http://localhost:5228
+
+GET {{AiInsole_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
