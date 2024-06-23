@@ -28,7 +28,7 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer();
 
-
+builder.Services.AddHealthChecks();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -42,11 +42,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 //app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapHealthChecks("/health");
 app.MapControllers();
 
 app.Run();
