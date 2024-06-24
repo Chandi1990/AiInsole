@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   webapi:
-    image: chandimajay90/aiinsole-server:latest
+    image: chandimajay90/aiinsole-server
     build:
       context: .
       dockerfile: Dockerfile
