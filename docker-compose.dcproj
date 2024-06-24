@@ -13,7 +13,10 @@
     <None Include=".dockerignore" />
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
-    <None Include="compose.yaml" />
+    <None Include="docker-compose.override.yml">
+      <DependentUpon>docker-compose.yml</DependentUpon>
+    </None>
+    <None Include="docker-compose.yml" />
     <None Include="Dockerfile" />
     <None Include="README.Docker.md" />
   </ItemGroup>
