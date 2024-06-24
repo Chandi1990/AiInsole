@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   webapi:
-    image: your-dockerhub-username/mywebapi:latest
+    image: chandimajay90/aiinsole-server:latest
     build:
       context: .
       dockerfile: Dockerfile
