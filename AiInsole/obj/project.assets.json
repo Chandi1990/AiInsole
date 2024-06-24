@@ -4615,11 +4615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chand\\source\\repos\\AiInsole\\AiInsole\\AiInsole.csproj",
+      "projectUniqueName": "E:\\A Knights Back\\Pressure Insole Project\\Repositories\\AiInsole\\AiInsole\\AiInsole.csproj",
       "projectName": "AiInsole",
-      "projectPath": "C:\\Users\\chand\\source\\repos\\AiInsole\\AiInsole\\AiInsole.csproj",
+      "projectPath": "E:\\A Knights Back\\Pressure Insole Project\\Repositories\\AiInsole\\AiInsole\\AiInsole.csproj",
       "packagesPath": "C:\\Users\\chand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chand\\source\\repos\\AiInsole\\AiInsole\\obj\\",
+      "outputPath": "E:\\A Knights Back\\Pressure Insole Project\\Repositories\\AiInsole\\AiInsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chand\\AppData\\Roaming\\NuGet\\NuGet.Config",

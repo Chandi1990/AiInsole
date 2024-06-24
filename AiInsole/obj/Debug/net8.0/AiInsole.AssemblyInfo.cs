@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AiInsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0f3da4a74b4b5dd10ff4bb78a80d31ada59e271")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+012e5f10081d735f9dc5d46a40f39b1a4580ee9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AiInsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AiInsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
