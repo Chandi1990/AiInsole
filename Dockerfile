@@ -11,13 +11,13 @@ COPY ["AiInsole/AiInsole.csproj", "AiInsole/"]
 RUN dotnet restore "./AiInsole/AiInsole.csproj"
 COPY . .
 WORKDIR "/src/AiInsole"
-RUN dotnet build "./AiInsole.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "./AiInsole.csproj" -c $BUILD_CONFIGURATION -o "/var/www/public_html/build"
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./AiInsole.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./AiInsole.csproj" -c $BUILD_CONFIGURATION -o "/var/www/public_html" /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=publish /var/www/public_html .
 ENTRYPOINT ["dotnet", "AiInsole.dll"]

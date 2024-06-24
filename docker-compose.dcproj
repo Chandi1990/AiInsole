@@ -11,5 +11,10 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include=".dockerignore" />
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="compose.yaml" />
+    <None Include="Dockerfile" />
+    <None Include="README.Docker.md" />
   </ItemGroup>
 </Project>
